@@ -22,15 +22,22 @@ Python Apollo Clinet
 
    id                        ---id号
    hostname                  ---主机名
+   cpu_count                 ---CPU核数
+   cpu_info                  ---CPU信息
+   ip                        ---主机IP地址
+   disk_size                 ---磁盘容量
+   memory_size               ---内存容量
+   ipmi                      ---IPMI信息
+   ipmi_check                ---IPMI状态
+   power_stats               ---电源状态
+   updated_at                ---记录更新时间
    
 
 1.获取物理机信息
 
 ``调    用： client.nodes.get(node_id)``
-
 ``参    数： node_id                   ---nodes表中的id号``
-
-   返 回 值： <warlock.core.node object>
+``返 回 值： <warlock.core.node object>``
 
    
 例：
