@@ -19,9 +19,8 @@ Python Apollo Clinet
 
 
 1.获取物理机信息
-""""""""""""""""
 
-调    用： client.nodes.get(node_id)
+| 调    用： client.nodes.get(node_id)
 
 参    数： node_id                   ---nodes表中的id号
 
