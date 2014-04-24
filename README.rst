@@ -20,13 +20,13 @@ Python Apollo Clinet
 
 1.获取物理机信息
 
-| 调    用： client.nodes.get(node_id)
+   调    用： client.nodes.get(node_id)
 
-参    数： node_id                   ---nodes表中的id号
+   参    数： node_id                   ---nodes表中的id号
 
-返 回 值： <warlock.core.node object>
+   返 回 值： <warlock.core.node object>
 
-数据结构： id                        ---id号
+   数据结构： id                        ---id号
 
            hostname                  ---主机名
 
