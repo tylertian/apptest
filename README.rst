@@ -28,7 +28,7 @@ Python Apollo Clinet
 
    调    用： client.nodes.get(node_id)
 
-   参    数： node_id                   ---nodes表中的id号
+   参    数： node_id                   </br>---nodes表中的id号
 
    返 回 值： <warlock.core.node object>
 
