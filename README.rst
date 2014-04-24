@@ -17,6 +17,12 @@ Python Apollo Clinet
 物理机信息API(Node information API)
 -----------------------------------
 
+数据结构： 
+::
+
+   id                        ---id号
+   hostname                  ---主机名
+   
 
 1.获取物理机信息
 
@@ -26,10 +32,7 @@ Python Apollo Clinet
 
    返 回 值： <warlock.core.node object>
 
-   数据结构： id                        ---id号
-
-           hostname                  ---主机名
-
+   
 例：
 ::
 
